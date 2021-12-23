@@ -1,0 +1,101 @@
+** Insalación de Nextjs y preparación del proyecto **
+
+1. Crear la carpeta: projectNextjs
+
+2. Ejecutar:  npm init -y
+
+3. Ejecutar: npm install next react react-dom
+
+4. Agregar los scripts necesarios en el package.json
+
+5. Crear la carpeta: pages
+
+6. Iniciar proyecto: npm run dev
+
+** Rutas básicas **
+
+7. Crear la ruta estática: pages/index.js (Página inicial por defecto en Nextjs)
+
+8. Crear la ruta estática: pages/about.js
+
+9. Crear la carpeta: product
+
+10. Crear la ruta dinámica: pages/product/[productId].js
+
+** Verificar SSR y Optimización ** 
+
+11. Ejecutar: npm run build
+
+12. Ejecutar: npm run start
+
+13. Inspeccionar código fuente o ir a las herramientas de google y ver la primera respuesta
+
+** Enlazando páginas ** 
+
+14. Crear la carpeta: components
+
+15. Crear la carpeta: components/Navbar
+
+16. Crear el componente: components/Navbar/Navbar.js
+
+** Configuración de TypeScript ** 
+
+17. Ejecutar: npm install --save-dev typescript @types/react @types/node
+18. Ejecutar: npm run dev
+
+19. Crear el archivo: next-env.d.ts
+
+20. Crear el archivo: tsconfig.json
+
+** Creación de API con NextJS ** 
+
+21. Crear el archivo: index.d.ts 
+
+22. Crear la carpeta: database 
+
+23. Crear el archivo: database/data.js
+
+24. Crear el archivo: database/db.js
+
+25. Cambiar extension de nuestros archivos a .tsx
+
+26. Crear la carpeta: pages/api
+
+27. Crear la carpeta: pages/api/avo
+
+28. Crear la ruta estática: pages/api/avo/index.ts (http://localhost:3000/api/avo)
+
+29. Crear la ruta dinámica: pages/api/avo/[id].ts (http://localhost:3000/api/avo/2zd33b8c)
+
+** Debugging ** 
+
+30. Agregar script: "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev"
+
+31. Ejecutarlo e ir a: about:inspect
+
+** Extendiendo Nextjs **
+
+32. Crear archivo: pages/_document.tsx
+
+33. Crear el archivo: pages/_app.tsx
+
+34. Crear la carpeta: components/Layout
+
+35. Crear el archivo: components/Layout/Layout.tsx
+
+36. Agregar la configuración de Paths en el archivo: tsconfig.json
+
+37. Crear archivo (Global CSS): style.css 
+
+38. Crear archivo (Module CSS): components/Layout/layout.module.css (Reemplaza archivo anterior)
+
+39. Crear archivo (Style JSX): Ir al componente Layout.tsx
+
+** Deploy **
+
+40. Se termino con el proyecto...
+
+41. Hacer Deploy En Vercel
+
+
+
